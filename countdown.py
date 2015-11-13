@@ -2,9 +2,7 @@
 import math, datetime, time, threading
 import Adafruit_CharLCD as LCD
 
-events = [('PhD Defense', '06/22/2015'),
-          ('Cross Country Trip', '03/09/2015'),
-          ('Cross Country Trip II', '06/23/2015')]
+events = [('Sample Event', '01/01/3000')]
 timeFormat = '%m/%d/%Y'
 
 def calculateAndPrintMessage(tevent, lcd, eventName, eventDatetime, timeFormat):
